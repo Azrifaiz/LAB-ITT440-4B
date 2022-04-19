@@ -9,7 +9,7 @@ int main(int argc, char **argv){
 			printf("I am the child process: pid=%d\n",getpid());
 			break;
 		default:
-			printf("I am the parent process: pid=%d, child pid=%d\n",getpid(), pid());
+			printf("I am the parent process: pid=%d, child pid=%d\n",getpid(), pid);
 			break;
 		case-1:
 			perror("fork");
